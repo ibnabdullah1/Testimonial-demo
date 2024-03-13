@@ -1,6 +1,6 @@
 import Rating from "react-rating";
 
-const ReviewsCard = () => {
+const ReviewCard = () => {
   return (
     <div className="flex flex-col justify-between rounded-md border border-gray-100 bg-white p-8">
       <div>
@@ -76,4 +76,4 @@ const ReviewsCard = () => {
   );
 };
 
-export default ReviewsCard;
+export default ReviewCard;

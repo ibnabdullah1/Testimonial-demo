@@ -3,8 +3,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination, Navigation, Autoplay } from "swiper/modules";
-import ReviewsCard from "./ReviewsCard";
-import SectionTitle from "../SectionTitle";
+import ReviewCard from "./ReviewCard";
 import "./Review.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -54,29 +53,29 @@ export default function Clients() {
           },
         }}
         autoplay={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
+        pagination={{
+          clickable: true,
+        }}
         modules={[FreeMode, Pagination, Navigation, Autoplay]}
       >
         <div>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
           <SwiperSlide>
-            <ReviewsCard />
+            <ReviewCard />
           </SwiperSlide>
         </div>
       </Swiper>

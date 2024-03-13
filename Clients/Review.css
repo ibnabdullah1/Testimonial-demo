@@ -1,12 +1,24 @@
 .swiper-pagination {
+  margin-top: 20px;
   position: relative !important;
   text-align: center;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10;
 }
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 5.5px;
+  border-radius: 30px;
+  display: inline-block;
+  background: #939090;
+  transition-duration: 0.5s;
+}
 .swiper-pagination-bullet-active {
   background: #214a7a;
+  border-radius: 30px;
+  height: 5.5px;
+  width: 15px;
 }
 .button {
   color: #214a7a;
